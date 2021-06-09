@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contents {
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginBox {
+    width: 400px !important;
+    height: 378px;
+    margin-top: 10px;
+    border: 0px solid #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 2;
+    padding: 0 30px;
+}
+
+.loginBox>div,
+.loginBox label {
+    color: #fff;
+}
+
+.loginBox button {
+    width: 300px;
+}
+
+.videos {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
